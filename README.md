@@ -90,7 +90,9 @@ flask-cors
 Install with:
 
 bash:
+```
 pip install -r requirements.txt
+```
 
 # ☁️AWS Cloud Deployment
 ☁️AWS Cloud Deployment
@@ -102,15 +104,19 @@ SSH into your instance.
 
 Clone the repository:
 bash:
+```
 git clone https://github.com/john-yelbert/weather_app.git
+```
 
-Set up Python, virtualenv, and install dependencies:
+# Set up Python, virtualenv, and install dependencies
 bash:
+```
 sudo apt update && sudo apt install python3-venv -y
 cd weather_app/flask_backend
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+```
 
 🔁 You’ll Need to Update the Flask Backend URL in Flutter:
 Get the Elastic IP of your EC2 instance (assigned via AWS dashboard).
