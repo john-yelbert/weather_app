@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'package:geolocator/geolocator.dart';
 
 class WeatherService {
-  final String baseUrl = "http://51.20.110.9:5000/weather"; /*10.0.2.2*/
+  final String baseUrl = "http://10.0.2.2:5000/weather"; /*10.0.2.2*/
 
   // Fetch weather by city
   Future<Map<String, dynamic>> getWeatherByCity(String city) async {
