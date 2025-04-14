@@ -20,7 +20,8 @@ Modular backend with environment variables for security
 
 🗂️ Project Structure
 
-```weather_app/
+```
+weather_app/
 ├── flask_backend/
 │   ├── app.py
 │   ├── .env
@@ -31,7 +32,8 @@ Modular backend with environment variables for security
 │   ├── pubspec.yaml
 │   └── ...
 ├── README.md
-└── .gitignore```
+└── .gitignore
+```
 
 ⚙️ Getting Started
 1. Clone the Repository
