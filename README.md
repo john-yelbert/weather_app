@@ -122,8 +122,9 @@ pip install -r requirements.txt
 Get the Elastic IP of your EC2 instance (assigned via AWS dashboard).
 
 Replace the local development URL in your Flutter app (e.g. http://10.0.2.2:5000 or http://localhost:5000) with:
-
-http://<your-elastic-ip>:5000
+```
+http://your-elastic-ip:5000
+```
 
 Open port 5000 (or 80) in your EC2 security group rules.
 
