@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 
 load_dotenv()
-api_key = os.getenv('OPENWEATHER_API_KEY')
+API_KEY = os.getenv('OPENWEATHER_API_KEY')
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 def fetch_weather_data(params):
