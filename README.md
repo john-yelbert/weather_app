@@ -1,3 +1,4 @@
+# Intro
 🌦️ Weather App
 A cross-platform weather application that fetches real-time weather data using the OpenWeatherMap API. The backend is built with Flask, and the frontend is developed in Flutter.
 
@@ -36,6 +37,7 @@ weather_app/
 ```
 
 ⚙️ Getting Started
+# Local PC Deployment Deployment
 1. Clone the Repository
 bash:
 git clone https://github.com/john-yelbert/weather_app.git
@@ -90,7 +92,7 @@ Install with:
 bash:
 pip install -r requirements.txt
 
-
+# ☁️AWS Cloud Deployment
 ☁️AWS Cloud Deployment
 
 🌐 Flask Backend
