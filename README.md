@@ -19,8 +19,8 @@ CORS-enabled API
 Modular backend with environment variables for security
 
 🗂️ Project Structure
-bash:
-weather_app/
+
+```weather_app/
 ├── flask_backend/
 │   ├── app.py
 │   ├── .env
@@ -31,7 +31,7 @@ weather_app/
 │   ├── pubspec.yaml
 │   └── ...
 ├── README.md
-└── .gitignore
+└── .gitignore```
 
 ⚙️ Getting Started
 1. Clone the Repository
